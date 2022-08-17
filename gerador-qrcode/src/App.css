@@ -1,3 +1,6 @@
+body{
+  background-color: #01113b;
+}
 .container{
   display: flex;
   flex-direction: column;
@@ -15,4 +18,18 @@
   padding: 8px;
   outline: none;
   border: 1px solid #B6B6B6;
+}
+
+h1{
+  padding-bottom: 2.5rem;
+  color: #B6B6B6;
+}
+
+a{
+  border: 1px solid #10b981;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #10b981;
+  color: #0c0c0c;
+  text-decoration: none;
 }

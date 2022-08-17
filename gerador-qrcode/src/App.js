@@ -25,14 +25,9 @@ function App() {
   return (
     <div className="container">
       <h1>Gerador de QRCode</h1>
-
       <QRCode value={link}/>
-
-
       <input className="input" placeholder="Digite seu link..." value={link} onChange={ (event) => handleQrcode(event)}/>
-
       <a href={qrCodeLink} download={`qrcode.png`}>Baixar QRCode</a>
-      
     </div>
   );
 }
